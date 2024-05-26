@@ -1,0 +1,13 @@
+<p>developer works!</p>
+<div>
+    <p>Developer information</p>
+    <p>{{dev.lastName}} </p>
+    <p>{{dev.firstName}} </p>
+    <p>{{dev.age}} </p>
+    <p>{{dev.bio}} </p>
+    <!-- @for(item of dev.skills;track item.name){
+        <li>{{item.name}}:{{item.website}}</li>
+        
+    } -->
+<app-skill [skills]="dev.skills"></app-skill>
+</div>
